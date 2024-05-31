@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/22650dc81e.js" crossorigin="anonymous"></script>
+</head>
+<body > 
+   <div id="header" >
+    <div id="container">
+        <nav>
+            <img src="images/Preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi ,I'm <span>Amulya</span></h1>
+            <p>Basic Web Developer</p>
+        </div>
+    </div>
+   </div> 
+
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub">About me</h1><br>
+                <p>I am currently pursuing a Bachelor's in Technology in Computer Science with a specialization in Data Science.
+                 <br>As a data science enthusiast, I am constantly seeking new opportunities to expand my knowledge and skills in this field.<br><br>
+                 Apart from data science, I am also interested in web development.
+                  <br>I believe that the combination of data science and web development can lead to powerful and innovative solutions.
+                  <br>I am always eager to collaborate and work on projects that involve both these areas.
+                 I am an ambitious and driven individual, constantly seeking new challenges and opportunities to learn and grow.</p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Development</span><br>website devlopment</li>
+                        <li><span>Languages</span><br>C</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>R</li>
+                        <li>My Sql</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>January-May</span><br>Data Science Training at Academor</li>
+                        <li><span>May-June</span><br>Web Developer</li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>C from Cisco Networking Academy</li>
+                        <li><span>2023</span><br>Python from Cisco Networking Academy</li>
+                        <li><span>2024-January</span><br>Data Science from Academor</li>
+                        <li>Java</li>
+                        <li>R</li>
+                        <li>My Sql</li>
+                    </ul>
+
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+   <div id="services">
+    <div class="container">
+        <h1 class="sub">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I am profient in web development which can build a basic<br> website using html,css and javascript   
+                </p>
+                <a href="https://www.geeksforgeeks.org/web-development/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-chart-bar"></i>
+                <h2>Data Visualization</h2>
+                <p>I am aware of Data Visualization using POWERBI  and TABLAUE which <br>represents raw data in the form of piecharts,graphs,bargraphs etc..
+                </p>
+                <a href="https://www.geeksforgeeks.org/data-visualization-and-its-importance/">Learn More</a>
+            </div>
+
+        </div>
+    </div>
+   </div>
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpg">
+                <div class="layer">
+                    <h3>Responsive Website</h3>
+                    <p>This website represents a basic details of vjit where navbar responses</p>
+                    <a href="https://amulyaarelli.github.io/PRODIFY_WB_01/"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpg">
+                <div class="layer">
+                    <h3>Stop Watch Website</h3>
+                    <p>This website was focused on creating a stop watch web application using HTML, CSS, and JavaScript,user-friendly stop
+                         watch that allows for starting, stopping, pausing, and lapping time.</p>
+                    <a href="https://amulyaarelli.github.io/PRODIGY_WB_02/"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpg">
+                <div class="layer">
+                    <h3>Tic-Tac-Toe Game</h3>
+                    <p>This website was focused on creating a Tic-Tac-Toe game using html,css,javascript</p>
+                    <a href=" https://amulyaarelli.github.io/PRODIGY_WB_03/"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work4.png">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>This website represents a basic details of vjit where navbar responses</p>
+                    <a href="https://amulyaarelli.github.io/PRODIGY_WB_05/"><i class="fa-brands fa-staylinked"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Amulyaarelli?tab=repositories" class="btn">
+            See More
+        </a>
+    </div>
+   </div>
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"><span>Contact Me</span></h1>
+                <p><i class="fa-solid fa-envelopes-bulk"></i>rajuarelli970470@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>7780783736</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/amulya-arelli-912889259/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ammulu_16090/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> Copyright @Amulya </p>
+    </div>
+   </div>
+   <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+   </script>
+   <script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right='0';
+    }
+    function closemenu(){
+        sidemenu.style.right='-200px';
+    }
+   </script>
+   <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxOqLKD9Oh52NjACIYRgIfd1VJbgwU3SGM-73QEGLcHTZdf2SGPMr7ijDZiHx-Lm2yjIQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            serTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
